@@ -1,6 +1,5 @@
 addpath ../Exercise_2/
-addpath ../Root/mnist/
-addpath ../Root/mnistHelper/
+addpath ../mnist/
 
 %% CS294A/CS294W Softmax Exercise 
 

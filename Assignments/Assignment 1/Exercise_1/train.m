@@ -105,7 +105,7 @@ disp(diff); % Should be small. In our implementation, these values are
 theta = initializeParameters(hiddenSize, visibleSize);
 
 %  Use minFunc to minimize the function
-addpath ../Root/minFunc/
+addpath ../minFunc/
 options.Method = 'lbfgs'; % Here, we use L-BFGS to optimize our cost
                           % function. Generally, for minFunc to work, you
                           % need a function pointer with two outputs: the

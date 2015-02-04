@@ -1,8 +1,6 @@
 addpath ../Exercise_2/
 addpath ../Exercise_3/
-addpath ../Root/mnist/
-addpath ../Root/mnistHelper/
-
+addpath ../mnist/
 
 %% CS294A/CS294W Self-taught Learning Exercise
 
@@ -78,7 +76,7 @@ theta = initializeParameters(hiddenSize, inputSize);
 %opttheta = theta; 
 
 %  Use minFunc to minimize the function
-addpath ../Root/minFunc/
+addpath ../minFunc/
 options.Method = 'lbfgs'; % Here, we use L-BFGS to optimize our cost
                           % function. Generally, for minFunc to work, you
                           % need a function pointer with two outputs: the
