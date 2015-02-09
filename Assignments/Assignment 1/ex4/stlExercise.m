@@ -1,6 +1,7 @@
-addpath ../Exercise_2/
-addpath ../Exercise_3/
+addpath ../ex2/
+addpath ../ex3/
 addpath ../mnist/
+addpath ../data/
 
 %% CS294A/CS294W Self-taught Learning Exercise
 

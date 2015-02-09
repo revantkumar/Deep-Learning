@@ -1,5 +1,6 @@
-addpath ../Exercise_2/
+addpath ../ex2/
 addpath ../mnist/
+addpath ../data/
 
 %% CS294A/CS294W Softmax Exercise 
 
